@@ -118,7 +118,7 @@ st.html('''
 ''')
 
 st.html("""
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; width: 100%; padding: 20px; color: #2C4251;">
+    <div id="sobre" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; width: 100%; padding: 20px; color: #2C4251;">
         <h1 style="color: #40E0D0; font-size: 32px; margin-bottom: 8px; font-weight: 600;">Sobre o TumTum</h1>
 
         <p style="font-size: 16px; line-height: 1.6; margin-bottom: 24px; text-align: justify; white-space: normal;">
@@ -146,7 +146,7 @@ st.html("""
     margin: 0; /* Remove margens externas */
     padding: 0; /* Remove espaçamento interno */">
 
-    <div style="max-width: 800px; padding: 0 20px; text-align: left;">
+    <div id="faq" style="max-width: 800px; padding: 0 20px; text-align: left;">
         <h1 style="color: #FF4B6E; font-size: 48px; text-align: center; margin: 5px 0;">Perguntas Frequentes</h1> <!-- Margens ajustadas -->
 
         <details style="margin-bottom: 10px; background: #F8F9FA; border-radius: 8px; padding: 15px; cursor: pointer;"> <!-- Margem e padding reduzidos -->
@@ -198,7 +198,7 @@ st.html("""
 
 # Configuração do layout com título e estilo
 st.html("""
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1200px; padding: 20px;">
+    <div id="contatos" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1200px; padding: 20px;">
         <h1 style="color: #2C4251; font-size: 48px; text-align: center; margin-bottom: 5px;">Contatos</h1> <!-- Diminuindo o margin-bottom -->
     </div>
     """)
