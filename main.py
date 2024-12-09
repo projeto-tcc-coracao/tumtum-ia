@@ -198,7 +198,7 @@ st.html("""
 
 # Configuração do layout com título e estilo
 st.html("""
-    <div id="contatos" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1200px; padding: 20px;">
+    <div id="contato" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1200px; padding: 20px;">
         <h1 style="color: #2C4251; font-size: 48px; text-align: center; margin-bottom: 5px;">Contatos</h1> <!-- Diminuindo o margin-bottom -->
     </div>
     """)
